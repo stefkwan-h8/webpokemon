@@ -1,0 +1,27 @@
+body {
+    background-color: darkcyan;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img{
+    width: 300px;
+    height: 300px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: 6px solid transparent;
+}
+
+.image-container img:hover{
+    border: 6px solid orange;
+}
+
+h1 {
+    text-align: center;
+}
